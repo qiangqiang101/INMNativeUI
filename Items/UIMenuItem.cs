@@ -19,8 +19,6 @@ namespace INMNativeUI
 
         private readonly Color _disabledColor = Color.FromArgb(163, 159, 148); // Why allocating memory for same color every time?
 
-        protected string[] _subString;
-        protected int[] _subInteger;
         protected object _tag;
 
         [Obsolete("This options will be remove in the future updates.")]
@@ -93,8 +91,6 @@ namespace INMNativeUI
 
             _labelText = new UIResText("", new Point(0, 0), 0.35f) {TextAlignment = UIResText.Alignment.Right};
 
-            SubString = _subString;
-            SubInteger = _subInteger;
             Tag = _tag;
 
             SubString1 = subString1;
@@ -146,8 +142,9 @@ namespace INMNativeUI
             Activated?.Invoke(sender, this);
         }
 
-        public virtual string[] SubString { get; set; }
-        public virtual int[] SubInteger { get; set; }
+        /// <summary>
+        /// Tag Property.
+        /// </summary>
         public virtual object Tag { get; set; }
 
         [Obsolete("This options will be remove in the future updates.")]

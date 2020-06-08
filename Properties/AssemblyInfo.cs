@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("INMNativeUI")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("Zettabyte Technology")]
 [assembly: AssemblyProduct("INMNativeUI")]
 [assembly: AssemblyCopyright("Copyright © 2015-2020 Zettabyte Technology")]
 [assembly: AssemblyTrademark("")]
@@ -32,5 +32,5 @@ using System.Runtime.InteropServices;
 // You can specify all the values or you can default the Build and Revision Numbers 
 // by using the '*' as shown below:
 // [assembly: AssemblyVersion("1.0.*")]
-[assembly: AssemblyVersion("1.8.608.2")]
-[assembly: AssemblyFileVersion("1.8.608.2")]
+[assembly: AssemblyVersion("1.8.608.3")]
+[assembly: AssemblyFileVersion("1.8.608.3")]
